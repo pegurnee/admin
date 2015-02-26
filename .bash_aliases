@@ -22,5 +22,6 @@ alias please='sudo'
 alias sl='ls'
 alias cd..='cd ..'
 
-alias goto='cd ~/Documents/git_repos/'
+#alias goto='cd ~/Documents/git_repos/'
 alias edb2='ssh egurnee@db2.emich.edu'
+alias ddb2='ssh 201501_cosc471_group04@db2.emich.edu'
