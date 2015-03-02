@@ -5,7 +5,10 @@ function mcd {
 
 function goto {
 	cd ~/Documents/git_repos/
-  cd $1
+  if [ ! -z "$1" ]
+    then 
+      cd $1
+  fi
 }
 
 function note {
