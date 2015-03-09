@@ -19,6 +19,8 @@ alias l.='ls -d .*'
 alias vi='vim'
 alias svi='sudo vi'
 alias please='sudo'
+alias mysql='mysql -u root -p'
+alias python='python3'
 alias sl='ls'
 alias cd..='cd ..'
 
