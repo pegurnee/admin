@@ -24,6 +24,8 @@ alias python='python3'
 alias sl='ls'
 alias cd..='cd ..'
 
+alias design='open -a yEd'
+alias work='open -a eclipse'
 alias dump='mysqldump -u dump -p bbb_te > `date +%Y_%m_%d_%H%M`.sql'
 
 #alias goto='cd ~/Documents/git_repos/'
