@@ -1,1 +1,7 @@
+_completeGoto () {
+	local cur=${COMP_WORDS[COMP_CWORD]}
+    COMPREPLY=( $(compgen -W "$(ls ~/Documents/git_repos)" -- $cur) )
+}
+
+complete -F _completeGoto goto
 complete -d cd
