@@ -11,6 +11,10 @@ function goto {
   fi
 }
 
+function watch {
+  open -a vlc $1
+}
+
 function note {
   cat $1
 }
