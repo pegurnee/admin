@@ -24,6 +24,8 @@ alias python='python3'
 alias sl='ls'
 alias cd..='cd ..'
 
+alias dump='mysqldump -u dump -p bbb_te > `date +%Y_%m_%d_%H%M`.sql'
+
 #alias goto='cd ~/Documents/git_repos/'
 alias edb2='ssh egurnee@db2.emich.edu'
 alias ddb2='ssh 201501_cosc471_group04@db2.emich.edu'
