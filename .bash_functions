@@ -12,7 +12,7 @@ function goto {
 }
 
 function watch {
-  open -a vlc $1
+  open -a vlc "$1"
 }
 
 function note {
