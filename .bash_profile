@@ -1,3 +1,7 @@
+# Setting PATH for Antlr
+CLASSPATH=".:/usr/local/lib/antlr-4.5-complete.jar:$CLASSPATH"
+export CLASSPATH
+
 # Setting PATH for MySQL
 PATH="/usr/local/mysql/bin/:${PATH}"
 
