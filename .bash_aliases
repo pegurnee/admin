@@ -29,6 +29,7 @@ alias work='open -a eclipse'
 alias dump='mysqldump -u root -p bbb_te > `date +%Y_%m_%d_%H%M`.sql'
 alias antlr4='java -Xmx500M -cp "/usr/local/lib/antlr-4.5-complete.jar:$CLASSPATH" org.antlr.v4.Tool'
 alias grun='java org.antlr.v4.runtime.misc.TestRig'
+alias restart='sudo apachectl restart'
 
 #alias goto='cd ~/Documents/git_repos/'
 alias edb2='ssh egurnee@db2.emich.edu'
