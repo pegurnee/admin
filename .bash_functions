@@ -21,6 +21,11 @@ function regitignore {
   git commit -m "updated .gitignore has been applied"
 }
 
+function delete {
+  mdfind -name $1
+  echo "remove all? [y/n]"
+}
+
 function note {
   cat $1
 }
