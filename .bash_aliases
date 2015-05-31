@@ -18,6 +18,7 @@ alias l.='ls -d .*'
 
 alias vi='vim'
 alias svi='sudo vi'
+alias wget='wget -c'
 alias please='sudo'
 alias mysql='mysql -u root -p'
 alias bcd='cd -'
