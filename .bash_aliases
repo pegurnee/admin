@@ -32,6 +32,7 @@ alias antlr4='java -Xmx500M -cp "/usr/local/lib/antlr-4.5-complete.jar:$CLASSPAT
 alias grun='java org.antlr.v4.runtime.misc.TestRig'
 alias restart='sudo apachectl restart'
 alias reset_mysql='ln -s /var/mysql/mysql.sock /tmp/mysql.sock'
+alias reset_time='sudo ntpdate -u time.apple.com'
 
 #alias goto='cd ~/Documents/git_repos/'
 alias edb2='ssh egurnee@db2.emich.edu'
