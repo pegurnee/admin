@@ -29,3 +29,7 @@ function delete {
 function note {
   cat $1
 }
+
+function ffh {
+  date $(date -v+1H "+%m%d%H%M%Y.%S")
+}
