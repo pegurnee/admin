@@ -27,7 +27,12 @@ function delete {
 }
 
 function note {
-  cat $1
+  FILE=$(date "+%Y-%m/%d_%b_%Y")
+  if [ ! -f ~/Documents/notes/${FILE}note.txt ] 
+    then
+      mkdir -p ~/Documents/notes/$(date "+%Y-%m")
+  fi
+  echo "$(date "+%H:%M:%S") $*" >> ~/Documents/notes/${FILE}note.txt
 }
 
 function ffh {
