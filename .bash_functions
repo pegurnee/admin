@@ -38,3 +38,7 @@ function note {
 function ffh {
   date $(date -v+1H "+%m%d%H%M%Y.%S")
 }
+
+function tw {
+  open -a TextWrangler $1
+}
