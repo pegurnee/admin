@@ -31,6 +31,7 @@ alias cd..='cd ..'
 
 alias design='open -a yEd'
 alias work='open -a eclipse'
+alias work_hard="cat /dev/urandom | hexdump -C | grep --color=auto 'ca fe'"
 alias dump='mysqldump -u root -p bbb_te > `date +%Y_%m_%d_%H%M`.sql'
 alias antlr4='java -Xmx500M -cp "/usr/local/lib/antlr-4.5-complete.jar:$CLASSPATH" org.antlr.v4.Tool'
 alias grun='java org.antlr.v4.runtime.misc.TestRig'
