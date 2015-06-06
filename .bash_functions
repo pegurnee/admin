@@ -49,5 +49,5 @@ function listen {
     then
       mkdir -p ~/Documents/rec/${LOC}
   fi
-  sox -d -q ~/Documents/rec/${LOC}$(date "+%H:%M:%S.wav")
+  sox -d -q ~/Documents/rec/${LOC}$(date "+%H%M_%S.wav")
 }
