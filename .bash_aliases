@@ -39,8 +39,3 @@ alias free='df -hl | grep -E "^.*(8[5-9]%|9\d%).*$|$" --color=auto'
 alias restart='sudo apachectl restart'
 alias reset_mysql='ln -s /var/mysql/mysql.sock /tmp/mysql.sock'
 alias reset_time='sudo ntpdate -u time.apple.com'
-
-#alias goto='cd ~/Documents/git_repos/'
-alias edb2='ssh egurnee@db2.emich.edu'
-alias ddb2='ssh 201501_cosc471_group04@db2.emich.edu'
-alias hdb2='ssh 201501_cosc481_group01@db2.emich.edu'
