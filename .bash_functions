@@ -44,5 +44,5 @@ function tw {
 }
 
 function listen {
-  sox -d $(date "+%Y_%m_%d_%H:%M:%S.wav")
+  sox -d -q $(date "+%Y_%m_%d_%H:%M:%S.wav")
 }
