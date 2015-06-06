@@ -42,3 +42,7 @@ function ffh {
 function tw {
   open -a TextWrangler $1
 }
+
+function listen {
+  sox -d $(date "+%Y_%m_%d_%H:%M:%S.wav")
+}
