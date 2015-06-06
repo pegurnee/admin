@@ -44,5 +44,10 @@ function tw {
 }
 
 function listen {
-  sox -d -q $(date "+%Y_%m_%d_%H:%M:%S.wav")
+  LOC=$(date "+%Y-%m/%d_%b_%Y/")
+  if [ ! -e ~/Documents/rec/${LOC} ]
+    then
+      mkdir -p ~/Documents/rec/${LOC}
+  fi
+  sox -d -q ~/Documents/rec/${LOC}$(date "+%Y_%m_%d_%H:%M:%S.wav")
 }
