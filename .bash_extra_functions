@@ -1,14 +1,14 @@
 function listen {
   LOC=$(date "+%Y-%m/%d_%b_%Y/")
-  if [ ! -e ~/Documents/rec/${LOC} ]
+  if [ ! -e ~/Documents/notes/${LOC} ]
     then
-      mkdir -p ~/Documents/rec/${LOC}
+      mkdir -p ~/Documents/notes/${LOC}
   fi
-  sox -d -q ~/Documents/rec/${LOC}$(date "+%H%M_%S.wav")
+  sox -d -q ~/Documents/notes/${LOC}$(date "+%H%M_%S.wav")
 }
 
 function note {
-  FILE=$(date "+%Y-%m/%d_%b_%Y")
+  FILE=$(date "+%Y-%m/%d_%b_%Y/")
   if [ ! -f ~/Documents/notes/${FILE}note.txt ] 
     then
       mkdir -p ~/Documents/notes/$(date "+%Y-%m")
