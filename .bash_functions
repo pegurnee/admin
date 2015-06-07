@@ -26,28 +26,6 @@ function delete {
   echo "remove all? [y/n]"
 }
 
-function note {
-  FILE=$(date "+%Y-%m/%d_%b_%Y")
-  if [ ! -f ~/Documents/notes/${FILE}note.txt ] 
-    then
-      mkdir -p ~/Documents/notes/$(date "+%Y-%m")
-  fi
-  echo "$(date "+%H:%M:%S") $*" >> ~/Documents/notes/${FILE}note.txt
-}
-
-function ffh {
-  date $(date -v+1H "+%m%d%H%M%Y.%S")
-}
-
 function tw {
   open -a TextWrangler $1
-}
-
-function listen {
-  LOC=$(date "+%Y-%m/%d_%b_%Y/")
-  if [ ! -e ~/Documents/rec/${LOC} ]
-    then
-      mkdir -p ~/Documents/rec/${LOC}
-  fi
-  sox -d -q ~/Documents/rec/${LOC}$(date "+%H%M_%S.wav")
 }

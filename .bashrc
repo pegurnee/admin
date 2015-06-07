@@ -8,6 +8,10 @@ if [ -f ~/.bash_functions ]; then
     source ~/.bash_functions
 fi
 
+if [ -f ~/.bash_extra_functions ]; then
+    source ~/.bash_extra_functions
+fi
+
 if [ -f ~/.bash_autocomplete ]; then
     source ~/.bash_autocomplete
 fi
