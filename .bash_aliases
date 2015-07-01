@@ -15,6 +15,7 @@ alias df='df -h'
 alias cl='clear'
 alias d='date'
 alias h='history'
+alias gs='git status'
 
 #list some listings
 alias ll='ls -lh'
