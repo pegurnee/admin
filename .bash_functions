@@ -31,5 +31,5 @@ function tw {
 }
 
 function web_project {
-  ln -s ~/Documents/git_repos/$1
+  ln -s ~/Documents/git_repos/$1 ~/Sites/$1
 }
