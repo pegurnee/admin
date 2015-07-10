@@ -29,3 +29,7 @@ function delete {
 function tw {
   open -a TextWrangler $1
 }
+
+function web_project {
+  ln -s ~/Documents/git_repos/$1
+}
