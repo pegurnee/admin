@@ -39,7 +39,7 @@ alias sl='ls'
 alias cd..='cd ..'
 
 #my commands
-alias design='open -a yEd'
+alias yed='open -a yEd'
 alias work='open -a eclipse'
 alias work_hard="cat /dev/urandom | hexdump -C | grep --color=auto 'ca fe'"
 alias dump='mysqldump -u root -p bbb_te > `date +%Y_%m_%d_%H%M`.sql'
