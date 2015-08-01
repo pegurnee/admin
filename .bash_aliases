@@ -16,6 +16,7 @@ alias cl='clear'
 alias d='date'
 alias h='history'
 alias gs='git status'
+alias gp='git push origin master'
 
 #list some listings
 alias ll='ls -lh'
