@@ -15,5 +15,3 @@ fi
 if [ -f ~/.bash_autocomplete ]; then
     source ~/.bash_autocomplete
 fi
-
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
