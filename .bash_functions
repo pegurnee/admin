@@ -33,3 +33,10 @@ function tw {
 function web_project {
   ln -s ~/Documents/git_repos/$1 ~/Sites/$1
 }
+
+function your {
+  if [ "mom" = $1 ]
+    then
+      echo "You are talking to a computer, go to bed."
+  fi
+}
