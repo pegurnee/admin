@@ -9,7 +9,7 @@ function listen {
 
 function note {
   FILE=$(date "+%Y-%m/%d_%b_%Y/")
-  if [ ! -f ~/Documents/notes/${FILE}note.txt ] 
+  if [ ! -f ~/Documents/notes/${FILE}note.txt ]
     then
       mkdir -p ~/Documents/notes/${FILE}
   fi
@@ -18,4 +18,11 @@ function note {
 
 function ffh {
   date $(date -v+1H "+%m%d%H%M%Y.%S")
+}
+
+function gitinit {
+  PROJECT="${PWD##*/}"
+  AUTHOR="pegurnee"
+  LICENSE="E-MIT"
+  cat ~/_init/README.md | sed -e "s/{AUTHOR}/$AUTHOR/g" -e "s/{PROJECT}/$PROJECT/g" -e "s/{LICENSE}/$LICENSE/g" > README.md
 }
