@@ -6,7 +6,7 @@ function mcd {
 function goto {
 	cd ~/Documents/git_repos/
   if [ ! -z "$1" ]
-    then 
+    then
       cd $1
   fi
 }
@@ -32,6 +32,10 @@ function tw {
 
 function web_project {
   ln -s ~/Documents/git_repos/$1 ~/Sites/$1
+}
+
+function wifi_pass {
+  security find-generic-password -wga $1
 }
 
 function your {
